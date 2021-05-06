@@ -1,4 +1,4 @@
-# DIO---P-gina-inicial-do-Instagram
+# DIO-Pagina-inicial-do-Instagram
 Clone visual da página de login do Instagram para fixar melhor os conceitos de HTML e CSS
 
 fiz algumas mudanças que são mais pessoais mesmo
