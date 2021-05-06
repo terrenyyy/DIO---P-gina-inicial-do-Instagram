@@ -27,6 +27,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: start;
+                margin-top: 20px;
             }
             .phone {
                 display: flex;
@@ -111,6 +112,34 @@
                 max-height: 160px;
                 width: auto;
                 height: auto;
+            }
+            /* media query */
+
+            @media (max-width : 1024px) {
+                .instagram-wrapper{
+                    width: 90%;
+                }
+                .download {
+                    flex-direction: column;
+                }
+            }
+             @media (max-width : 650px) {
+                .instagram-wrapper{
+                    width: 90%;
+                    margin: auto;
+                }
+                .phone {
+                    display: none;
+                }
+                .login {
+                    width: 100%;
+                }
+                body {
+                    background-size: auto;
+                }
+                .download {
+                    flex-direction: column;
+                }
             }
             }
         </style>
